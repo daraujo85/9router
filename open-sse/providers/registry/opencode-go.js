@@ -80,6 +80,10 @@ export default {
     { id: "gpt-6-luna", name: "GPT 6 Luna", targetFormat: "openai-responses", supportedFormats: ["openai-responses"] },
     { id: "muse-spark-1.2-contributor", name: "Muse Spark 1.2 Contributor", targetFormat: "openai-responses", supportedFormats: ["openai-responses"] },
     { id: "muse-spark-1.3-contributor", name: "Muse Spark 1.3 Contributor", targetFormat: "openai-responses", supportedFormats: ["openai-responses"] },
+    { id: "claude-haiku-5-5", name: "Claude Haiku 5.5", supportedFormats: ["openai", "claude"] },
+    { id: "step-5-preview-free", name: "Step 5 Preview Free", supportedFormats: ["openai", "claude"] },
+    { id: "longcat-2.5-preview-free", name: "LongCat 2.5 Preview Free", supportedFormats: ["openai"] },
+    { id: "space-bunny", name: "Space Bunny", supportedFormats: ["openai", "claude"] },
   ],
   // Live catalogue; ids outside this curated list get their endpoint lane from the
   // family regex in providers/models/helpers.js (opencodeFamilyFormats).
